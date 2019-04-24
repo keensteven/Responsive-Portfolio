@@ -316,10 +316,7 @@ button {
   }
   
   #name {
-    width: 100%;
-    position: relative;
-    margin: 0 auto;
-    left: 50px;
+    margin: 0 0 0 60px;
   }
 
   nav > ul {
@@ -361,10 +358,7 @@ button {
   }
 
   #name {
-    width: 100%;
-    position: relative;
-    margin: 0 auto;
-    left: 50px;
+    margin: 0 0 0 60px;
   }
 
   aside {
@@ -387,51 +381,12 @@ button {
 
 }
 
-/* Below 320 */
-@media screen and (max-width: 320px) {
+/* Below 640 */
 
-  .wrapper {
-    width: 100%;
-    padding: 26px 30px 20px 36px;
-  }
+@media screen and (max-width: 640px) {
 
-  h1 {
-    font-size: 40px;
-    padding-bottom: 0px;
-  }
-
-  h2 {
-    font-size: 14px;
-    letter-spacing: 4px;
-    padding: 0 0 20px 0;
-  }
-
-  p {
-    font-size: 13px;
-    line-height: 30px;
-  }
-}
-
-/* Below 168 */
-@media screen and (max-width: 168px) {
-    
-  .wrapper {
-    width: 100%;
-    padding: 0px 70px 20px 70px;
-    margin: 0 auto 88px auto;
-  }
-    
-  h1 {
-    font-size: 30px;
-    line-height: 40px;
-    padding-bottom: 0px;
-  }
-
-  h2 {
-    font-size: 14px;
-    line-height: 25px;
-    letter-spacing: 3px;
-    padding: 10px 0 30px 0;
+  #name {
+    margin: 0 0 0 40px;
   }
 
 }
