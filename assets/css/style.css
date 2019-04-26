@@ -375,3 +375,31 @@ h2 {
   }
 
 }
+
+/* Below 550 */
+
+@media screen and (max-width: 550px) {
+
+  #name {
+    margin: 0 auto;
+    padding: 0 40px 0 40px;
+  }
+
+  #menubar {
+    height: 140px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+ nav {
+   padding: 0 0 0 35px;
+ }
+
+ .whitewrapper {
+   padding: 40px 34px 40px 34px;
+ }
+
+ nav > ul {
+  margin: 0 0 0 10px;
+}
+}
